@@ -4,7 +4,7 @@ This is just a quick demo of successfully setting up a tcp connection
 between two endpoints and sending messages.
 
 ## Instructor (students are welcome to do this as well on their own)
-Determine your local IP: 
+Determine your IP: 
 ```shellsession 
 $ ifconfig 
 ``` 
