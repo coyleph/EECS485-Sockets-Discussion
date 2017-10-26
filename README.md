@@ -9,7 +9,9 @@ Determine your local IP:
 $ ifconfig 
 ``` 
 You should see 
-an ip associated with your internet adapter (not your localhost IP!).  
+an ip associated with your internet adapter (not your localhost IP!).  It will be listed next to "inet".
+If you are having difficulty determining which one is correct, do a quick google search for "what is my ip" and 
+match the result with the corresponding IP.
 Use this value and replace the following line in server.py: 
 ```python 
 IP="yourIPhere" 
